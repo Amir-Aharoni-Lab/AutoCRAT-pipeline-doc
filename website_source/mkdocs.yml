@@ -1,0 +1,2 @@
+site_name: My Project Documentationtheme:  name: material  # Use Material theme (optional)nav:  - Home: index.md  - Pipeline: pipeline.md  - Script: script.md
+
