@@ -28,5 +28,5 @@ AutoCRAT simplifies complex workflows, enabling you to focus on discoveries inst
 
 ## AutoCRAT and Supplementary Scripts
 
-<iframe src="/assets/diagram.html" width="800" height="600" style="border:none;"></iframe>
+<iframe src="assets/diagram.html" width="800" height="600" style="border:none;"></iframe>
 
