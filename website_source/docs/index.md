@@ -25,3 +25,7 @@ AutoCRAT simplifies complex workflows, enabling you to focus on discoveries inst
 - **Replisome-normalized signal averaging**: Delivers detailed quantification.
 - **Double-strand break detection**: Identification of double-strand breaks.
 
+## AutoCRAT and Supplementary Scripts
+
+<iframe src="/assets/diagram.html" width="800" height="600" style="border:none;"></iframe>
+
