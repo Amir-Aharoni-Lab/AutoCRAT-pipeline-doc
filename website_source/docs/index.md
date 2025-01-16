@@ -1,20 +1,27 @@
-# Welcome to My Python Pipeline Documentation
+# Welcome to AutoCRAT Pipeline Documentation
 
-Welcome to the documentation for **My Python Pipeline**! This project is designed to provide a streamlined and efficient Python-based data pipeline, along with a user-friendly website for detailed documentation and examples.
+This guide provides documentation for the **AutoCRAT pipeline** and its supplementary scripts, designed to simplify pipeline results' management and visualization.
 
-## Features
+## About AutoCRAT
 
-- 🚀 **Robust Python Pipeline**: Designed for scalability and performance.
-- 📖 **Comprehensive Documentation**: Learn how to use and extend the pipeline.
-- 🌐 **Website**: Easily navigate through guides, examples, and API references.
+AutoCRAT simplifies complex workflows, enabling you to focus on discoveries instead of processes. It offers automation, ease of use, a modular design, and high performance through multiprocessing.
 
-## Quickstart
+### Key Design Principles:
+- **Fully automated and non-interactive**: Optimized for scalable deployments with minimal user intervention.
+- **User-friendly**: Easy to set up and operate.
+- **Modular architecture**: Flexible structure for seamless integration and expansion.
+- **High performance**: Leverages multiprocessing and pre-compilation for efficiency.
 
-### Installation
+### Core Capabilities:
+- **Effortless data import**: Supports microscopy movies in various formats.
+- **4D fluorescence dot detection**: Identifies fluorescent dots in movies through advanced statistical analysis.
+- **Quantification of dot intensity**: Provides detailed measurement insights.
+- **Particle tracking**: Handles challenging low signal-to-noise ratios effectively.
+- **Cell identification**: Groups nearby tracks across different channels.
+- **Precise 3D measurements**: Calculates distances between fluorescent dots.
 
-Clone the repository and install the dependencies:
+### Add-On Module Capabilities:
+- **Automated detection of DNA replication timing**: Fully automated and identifies replication times without manual intervention.
+- **Replisome-normalized signal averaging**: Delivers detailed quantification.
+- **Double-strand break detection**: Identification of double-strand breaks.
 
-```bash
-git clone https://github.com/username/my_python_pipeline.git
-cd my_python_pipeline
-pip install -r requirements.txt
