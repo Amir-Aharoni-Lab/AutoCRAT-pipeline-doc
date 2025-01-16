@@ -10,3 +10,6 @@ iframe {
     display: block !important;
 }
 
+.md-sidebar--secondary {
+    display: none !important;
+}
