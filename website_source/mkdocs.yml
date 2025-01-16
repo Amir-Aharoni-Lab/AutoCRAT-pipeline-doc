@@ -1,4 +1,6 @@
-site_name: My Project Documentationtheme:  name: material  # Use Material theme (optional)nav:  - Home: index.md
+site_name: AutoCRAT & Supplementary Scripts Documentationtheme:  name: material  # Use Material theme (optional)
+  features:
+    - toc.hidden  # Hides the Table of Contents from the right sidebarnav:  - Home: index.md
   - Scripts:
     - ScreenRNSA: ScreenRNSA.md
     - ScreenByRepTime: ScreenByRepTime.md
@@ -13,3 +15,5 @@ extra_css:
   - assets/extra.css
 
 site_url: https://amir-aharoni-lab.github.io/AutoCRAT-pipeline/
+
+
