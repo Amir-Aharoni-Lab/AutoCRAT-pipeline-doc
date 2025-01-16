@@ -1,0 +1,12 @@
+.diagram-container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    width: 100% !important;
+    margin: 0 auto !important;
+    text-align: center; /* Ensure text-align applies */
+}
+iframe {
+    display: block !important;
+}
+

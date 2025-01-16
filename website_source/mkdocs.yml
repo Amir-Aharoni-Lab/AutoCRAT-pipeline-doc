@@ -1,5 +1,13 @@
 site_name: My Project Documentationtheme:  name: material  # Use Material theme (optional)nav:  - Home: index.md
   - Scripts:
-    - ScreenRNSA: screenrnsa.md
-    - ScreenByRepTime: screenbyreptime.md  #- Pipeline: pipeline.md  #- Script: script.md
+    - ScreenRNSA: ScreenRNSA.md
+    - ScreenByRepTime: ScreenByRepTime.md
+    - CherryPicker: CherryPicker.md
+    - RNSAheatmap: RNSAheatmap.md
+    - RNSAsubpop: RNSAsubpop.md
+    - PlotRNSA: PlotRNSA.md
+    - RNSAsigmoid: RNSAsigmoid.md
+    - SwarmPlot: SwarmPlot.md
 
+extra_css:
+  - assets/extra.css
