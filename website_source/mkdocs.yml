@@ -2,6 +2,7 @@ site_name: AutoCRAT & Supplementary Scripts Documentationtheme:  name: materia
   features:
     - toc.hidden  # Hides the Table of Contents from the right sidebarnav:  - Home: index.md
   - Scripts:
+    - MergeAutoCRAT: MergeAutoCRAT.md
     - ScreenRNSA: ScreenRNSA.md
     - ScreenByRepTime: ScreenByRepTime.md
     - CherryPicker: CherryPicker.md
