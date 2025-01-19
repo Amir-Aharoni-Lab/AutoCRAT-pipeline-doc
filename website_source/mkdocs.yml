@@ -14,6 +14,6 @@ site_name: AutoCRAT & Supplementary Scripts Documentationtheme:  name: materia
 extra_css:
   - assets/extra.css
 
-site_url: https://amir-aharoni-lab.github.io/AutoCRAT-pipeline/
+site_url: https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/
 
 
