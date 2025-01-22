@@ -16,6 +16,8 @@ extra_css:
   - assets/extra.css
   - assets/custom.css
 
+extra_javascript:
+  - assets/custom.js
 
 site_url: https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/
 
