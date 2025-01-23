@@ -13,30 +13,26 @@ Locate the batch file:
 **`MergeAutoCRAT (Edit me then double-click to run!).bat`**  
 Open it in a text editor and update the following parameters as needed:
 
-#### 1. Specify Folders Containing AutoCRAT Runs
+#### &nbsp;&nbsp;• Specify Folders Containing AutoCRAT Runs
 Provide the paths to the folders where the AutoCRAT results are stored. 
-**Example:**
 ```
 --folders "C:\Data\AutoCRAT_Run1" "C:\Data\AutoCRAT_Run2" "C:\Data\AutoCRAT_Run3"
 ```
 
-#### 2. List 'Rep Summary' Files to Merge
+#### &nbsp;&nbsp;• List 'Rep Summary' Files to Merge
 List the filenames of the 'Rep Summary' files you want to merge.  
-**Example:**
 ```
 --rep_summary_filenames "Run1 - Rep Summary.xlsx" "Run2 - Rep Summary.xlsx" "Run3 - Rep Summary.xlsx"
 ```
 
-#### 3. Destination Folder for Merged Results
+#### &nbsp;&nbsp;• Destination Folder for Merged Results
 Indicate the folder where the merged files should be saved.  
-**Example:**
 ```
 --merged_folder "C:\Data\Merged_Results"
 ```
 
-#### 4. Set Output Filenames
+#### &nbsp;&nbsp;• Set Output Filenames
 Define the base name for the merged files. The script will automatically append appropriate suffixes (`- Rep Summary` and `- RNSA`).  
-**Example:**
 ```
 --merged_filename "Combined_Results"
 ```
