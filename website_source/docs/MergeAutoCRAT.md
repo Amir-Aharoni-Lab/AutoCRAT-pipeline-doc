@@ -13,7 +13,7 @@ The **MergeAutoCRAT** script consolidates the results from multiple AutoCRAT run
 - Merges the specified **'Rep Summary'** and, if available, **'RNSA'** files from multiple AutoCRAT runs into two unified output files.
 
 ### &nbsp;&nbsp;- Generate Updated Files
-- Creates final output files with the merged results in the designated merged results folder.
+- Creates final output files with the merged results in the defined merged results folder.
 
 ---
 
