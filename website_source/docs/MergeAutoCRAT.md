@@ -4,6 +4,18 @@
 The **MergeAutoCRAT** script consolidates the results from multiple AutoCRAT runs by merging their respective **'Rep Summary'** and **'RNSA'** files. The script generates two unified output files: `Rep Summary.xlsx` and `RNSA.xlsx`.
 
 ---
+## Key Tasks
+
+### &nbsp;&nbsp;- Read Input Files
+- Reads the **'Rep Summary'** and **'RNSA'** files from multiple AutoCRAT runs, as specified in the batch file.
+
+### &nbsp;&nbsp;- Merge Files
+- Merges the specified **'Rep Summary'** and, if available, **'RNSA'** files from multiple AutoCRAT runs into two unified output files.
+
+### &nbsp;&nbsp;- Generate Updated Files
+- Creates final output files with the merged results in the designated merged results folder.
+
+---
 
 ## How to Use MergeAutoCRAT
 
