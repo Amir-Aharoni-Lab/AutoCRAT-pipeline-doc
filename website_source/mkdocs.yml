@@ -18,6 +18,8 @@ extra_css:
 
 extra_javascript:
   - assets/custom.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML
+
 
 extra:
   analytics:
