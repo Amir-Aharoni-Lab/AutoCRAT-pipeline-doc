@@ -67,7 +67,7 @@ venv\Scripts\python.exe MergeAutoCRAT.py ^
 --merged_filename "Merged_Project_Results"
 ```
 
-### Output:
+### Expected Output
 - `C:\Project\Merged_Results\Merged_Project_Results - Rep Summary.xlsx`
 - `C:\Project\Merged_Results\Merged_Project_Results - RNSA.xlsx`
 

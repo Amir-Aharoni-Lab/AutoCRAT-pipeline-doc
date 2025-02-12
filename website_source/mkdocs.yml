@@ -19,6 +19,12 @@ extra_css:
 extra_javascript:
   - assets/custom.js
 
+extra:
+  analytics:
+    provider: google
+    property: G-VHGBMP72WJ  # Replace with your Measurement ID
+
+
 site_url: https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/
 
 

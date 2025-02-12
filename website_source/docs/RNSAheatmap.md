@@ -74,7 +74,7 @@ After editing the parameters:
 ### Step 3: Output Files
 The script generates two output files, saved in the same folder as the original RNSA file:
 
-&nbsp;&nbsp;• ```your_rnsa_file - Clustered.xlsx``` - Clustered RNSA file that contains clustered cell data for detailed analysis.
+&nbsp;&nbsp;• ```your_rnsa_file - Clustered.xlsx``` - Clustered RNSA file that contains clustered cell data for detailed analysis.<br>
 &nbsp;&nbsp;• ```your_rnsa_file - Heatmap.png```- Clustered heatmap PNG file that visualizes the clustered data
 
 ---
@@ -107,9 +107,7 @@ max_nan_range = [0, 3]
 max_nans = 30
 ```
 
----
-
-### Expected Outputs:
+### Expected Output
 - `C:\Project\RNSA_Results\Merged_Project_Results - RNSA - Clustered.xlsx`
 - `C:\Project\RNSA_Results\Merged_Project_Results - RNSA - Heatmap.png`
 

@@ -95,8 +95,6 @@ rnsa_x_axis = [-2, 3]
 rnsa_y_axis = [0.1, 0.8]
 ```
 
----
-
 ### Example Output
 - `C:\Project\Merged_Results\Merged_Project_Results - Rep Summary - Screened (Rep time under 100).xlsx`
 - `C:\Project\Merged_Results\Merged_Project_Results - RNSA - Screened (Rep time under 100).xlsx`

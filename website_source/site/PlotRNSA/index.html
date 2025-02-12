@@ -52,6 +52,16 @@
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-VHGBMP72WJ"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-VHGBMP72WJ",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-VHGBMP72WJ",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
 
     
     
@@ -66,6 +76,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#plotrnsa-script-documentation" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -381,6 +396,19 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    PlotRNSA
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -391,6 +419,151 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#key-tasks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Tasks
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Key Tasks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#-read-input-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      &nbsp;&nbsp;- Read Input Files
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-generate-fluorescence-intensity-plot" class="md-nav__link">
+    <span class="md-ellipsis">
+      &nbsp;&nbsp;- Generate Fluorescence Intensity Plot
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-save-the-output-plot" class="md-nav__link">
+    <span class="md-ellipsis">
+      &nbsp;&nbsp;- Save the Output Plot
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-use-plotrnsa" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Use PlotRNSA
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How to Use PlotRNSA">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-edit-parameters-in-the-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 1: Edit Parameters in the Script
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 1: Edit Parameters in the Script">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#specify-the-rnsa-file-location" class="md-nav__link">
+    <span class="md-ellipsis">
+      &nbsp;&nbsp;• Specify the RNSA File Location
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configure-plot-appearance" class="md-nav__link">
+    <span class="md-ellipsis">
+      &nbsp;&nbsp;• Configure Plot Appearance
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-run-the-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 2: Run the Script
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-output-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 3: Output Files
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Configuration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#expected-output" class="md-nav__link">
+    <span class="md-ellipsis">
+      Expected Output
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -463,6 +636,142 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#key-tasks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Tasks
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Key Tasks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#-read-input-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      &nbsp;&nbsp;- Read Input Files
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-generate-fluorescence-intensity-plot" class="md-nav__link">
+    <span class="md-ellipsis">
+      &nbsp;&nbsp;- Generate Fluorescence Intensity Plot
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-save-the-output-plot" class="md-nav__link">
+    <span class="md-ellipsis">
+      &nbsp;&nbsp;- Save the Output Plot
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-use-plotrnsa" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Use PlotRNSA
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How to Use PlotRNSA">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-edit-parameters-in-the-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 1: Edit Parameters in the Script
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 1: Edit Parameters in the Script">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#specify-the-rnsa-file-location" class="md-nav__link">
+    <span class="md-ellipsis">
+      &nbsp;&nbsp;• Specify the RNSA File Location
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configure-plot-appearance" class="md-nav__link">
+    <span class="md-ellipsis">
+      &nbsp;&nbsp;• Configure Plot Appearance
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-run-the-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 2: Run the Script
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-output-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 3: Output Files
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Configuration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#expected-output" class="md-nav__link">
+    <span class="md-ellipsis">
+      Expected Output
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -477,9 +786,99 @@
                   
 
 
-  <h1>PlotRNSA</h1>
+<h1 id="plotrnsa-script-documentation">PlotRNSA Script Documentation</h1>
+<iframe src="../assets/PlotRNSA_diagram.html" width="800" height="300" style="border:none; margin:0; padding:0; display:block;"></iframe>
+<p>The <strong>PlotRNSA</strong> script generates a summary plot from an RNSA file using <code>Matplotlib</code>. It visualizes RNSA data with color-coded channels, mean values, standard error margins, and optional sigmoid fits. This script helps analyze replication dynamics and compare replication timing across experimental conditions.</p>
+<hr />
+<h2 id="key-tasks">Key Tasks</h2>
+<h3 id="-read-input-files">&nbsp;&nbsp;- Read Input Files</h3>
+<ul>
+<li>Reads the <strong>'RNSA'</strong> file and processes the <strong>RNSA Summary</strong> sheet from the Excel file.</li>
+</ul>
+<h3 id="-generate-fluorescence-intensity-plot">&nbsp;&nbsp;- Generate Fluorescence Intensity Plot</h3>
+<ul>
+<li>Plots <strong>mean fluorescence intensity</strong> for each channel.</li>
+<li>Adds <strong>SEM shading</strong> to indicate uncertainty.</li>
+<li>Includes <strong>Sigmoid Curve</strong> (if available) – If the <strong>Sigmoid</strong> column is present in the RNSA file (generated by the <strong>RNSAsigmoid</strong> script), it is plotted as a dashed black line.</li>
+<li>Customizes plot appearance – Adjusts colors, line thickness, transparency, axis labels, and limits.</li>
+</ul>
+<h3 id="-save-the-output-plot">&nbsp;&nbsp;- Save the Output Plot</h3>
+<ul>
+<li>The script saves the plot as a <strong>PNG</strong> file in the same directory as the input file.</li>
+</ul>
+<hr />
+<h2 id="how-to-use-plotrnsa">How to Use PlotRNSA</h2>
+<h3 id="step-1-edit-parameters-in-the-script">Step 1: Edit Parameters in the Script</h3>
+<p>Modify the script parameters to customize the input file, appearance, and output.</p>
+<h4 id="specify-the-rnsa-file-location">&nbsp;&nbsp;• Specify the RNSA File Location</h4>
+<p>Define the folder and filename of the <strong>RNSA</strong> file:</p>
+<pre><code class="language-python">rnsa_folder = r'path_to_your_folder'
+rnsa_filename = 'your_rnsa_file.xlsx'
+</code></pre>
+<h4 id="configure-plot-appearance">&nbsp;&nbsp;• Configure Plot Appearance</h4>
+<p>Customize how the plot is displayed. Adjust colors, line widths, transparency, axis limits, and labels:</p>
+<pre><code class="language-python"># Channel settings
+channel_colors = ['red', 'orange', 'lime']  # Colors for each channel
+channel_line_widths = [1.5, 1.5, 3]  # Line thickness for each channel
+line_transparency = [0.5, 0.5, 1]  # Line transparency
+shade_transparency = [0.1, 0.12, 0.25]  # SEM shading transparency
 
-<p>PlotRNSA.md</p>
+# Axis settings
+rnsa_x_axis = [-1, 3]  # X-axis range
+rnsa_y_axis = [0.2, 0.7]  # Y-axis range
+
+# Labels
+legend_labels = ['LacI-Halo-SiR', 'TetR-tdTomato', 'PCP-Envy']  # Legend labels
+rnsa_x_name = 'Replisome-Normalized Time'  # X-axis label
+rnsa_y_name = 'Normalized Fluorescent Intensity'  # Y-axis label
+</code></pre>
+<hr />
+<h3 id="step-2-run-the-script">Step 2: Run the Script</h3>
+<p>After editing the parameters:<br>
+• Save the script.<br>
+• Run the script in a Python environment (command line, Jupyter Notebook, or PyCharm).</p>
+<hr />
+<h3 id="step-3-output-files">Step 3: Output Files</h3>
+<p>The script generates a <strong>PNG</strong> image of the RNSA plot in the same folder as the input file:<br>
+• <code>your_rnsa_file - RNSA.png</code></p>
+<hr />
+<h2 id="example-configuration">Example Configuration</h2>
+<p>Below is a sample configuration to visualize fluorescence intensity curves for three channels:</p>
+<pre><code class="language-python">&quot;&quot;&quot; Parameters &quot;&quot;&quot;
+
+# Location and filename of the relevant RNSA file.
+rnsa_folder = r'C:\Project\Merged_Results'
+rnsa_filename = 'Merged_Project_Results - RNSA.xlsx'
+
+# Color of each channel (in the order they appear in the RNSA file).
+channel_colors = ['red', 'orange', 'lime']
+# Relative width of line for each channel.
+channel_line_widths = [1.5, 1.5, 3]
+# Line transparency for each channel (0-transparent, 1-opaque).
+line_transparency = [0.5, 0.5, 1]
+# SEM shading transparency for each channel (0-transparent, 1-opaque).
+shade_transparency = [0.1, 0.12, 0.25]
+# Bottom and top limits on the X axis displayed in the chart.
+rnsa_x_axis = [-1, 3
+# Bottom and top limits on the Y axis displayed in the chart.
+rnsa_y_axis = [0.2, 0.7]
+# Labels to be displayed in the legend. If empty, legend will not be displayed.
+legend_labels = ['LacI-Halo-SiR', 'TetR-tdTomato', 'PCP-Envy'
+# Axis names.
+rnsa_x_name = 'Replisome-Normalized Time'
+rnsa_y_name = 'Normalized Fluorescent Intensity'
+</code></pre>
+<hr />
+<h2 id="expected-output">Expected Output</h2>
+<p>• <code>C:\Project\Merged_Results\Merged_Project_Results - RNSA.png</code></p>
+<div align="center">
+    <h3>Replisome-Normalized Signal Averaging  Plot</h3>
+    <img src="../assets/PlotRNSA_figure.png" alt="Clustered Heatmap" width="600">
+    <p><em>Figure: Example of Replisome-Normalized Signal Averaging Plot generated by the PlotRNSA script </em></p>
+</div>
+
+<hr />
+<p>By following these steps, you can efficiently generate and customize fluorescence intensity plots from RNSA data.</p>
 
 
 
@@ -488,6 +887,8 @@
 
 
 
+
+  
 
 
 

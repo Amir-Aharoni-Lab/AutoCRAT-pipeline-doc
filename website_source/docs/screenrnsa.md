@@ -123,7 +123,7 @@ colors = ['red', 'orange', 'lime']
 rnsa_x_axis = [-2, 3]
 rnsa_y_axis = [0.1, 0.8]
 ```
-### Output:
+### Expected Output
 - `C:\Project\Merged_Results\Merged_Project_Results - Rep Summary - Screened (Window 12, Int 65).xlsx`
 - `C:\Project\Merged_Results\Merged_Project_Results - RNSA - Screened (Window 12, Int 65).xlsx`
 

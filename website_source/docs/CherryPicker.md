@@ -109,8 +109,6 @@ rnsa_x_axis = [-2, 3]
 rnsa_y_axis = [0.1, 0.8]
 ```
 
----
-
 ### Expected Output
 - Filtered Rep Summary File:  
   `C:\Experiment\Results\Experiment_Results - Rep Summary - Screened by Selected_Cells.xlsx`
