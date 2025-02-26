@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/pipeline/">
+        <link rel="canonical" href="https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/output_files/">
       
       
-        <link rel="prev" href="../configuration/">
+        <link rel="prev" href="../pipeline/">
       
       
-        <link rel="next" href="../output_files/">
+        <link rel="next" href="../MergeAutoCRAT/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Pipeline Workflow - AutoCRAT & Supplementary Scripts Documentation</title>
+        <title>Output Files - AutoCRAT & Supplementary Scripts Documentation</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#pipeline-workflow" class="md-skip">
+        <a href="#output-files" class="md-skip">
           Skip to content
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Pipeline Workflow
+              Output Files
             
           </span>
         </div>
@@ -284,6 +284,26 @@
       
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../pipeline/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pipeline Workflow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -300,7 +320,7 @@
           
   
   <span class="md-ellipsis">
-    Pipeline Workflow
+    Output Files
   </span>
   
 
@@ -311,7 +331,7 @@
         
   
   <span class="md-ellipsis">
-    Pipeline Workflow
+    Output Files
   </span>
   
 
@@ -333,45 +353,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
+  <a href="#excel-outputs" class="md-nav__link">
     <span class="md-ellipsis">
-      Overview
+      Excel Outputs
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-1-importing-movies" class="md-nav__link">
+  <a href="#log-file" class="md-nav__link">
     <span class="md-ellipsis">
-      Step 1: Importing Movies
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#step-2-fluorescent-dot-tracking" class="md-nav__link">
-    <span class="md-ellipsis">
-      Step 2: Fluorescent Dot Tracking
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#step-3-replication-analysis" class="md-nav__link">
-    <span class="md-ellipsis">
-      Step 3: Replication Analysis
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#step-4-double-strand-break-detection" class="md-nav__link">
-    <span class="md-ellipsis">
-      Step 4: Double-Strand Break Detection
+      Log File
     </span>
   </a>
   
@@ -381,26 +374,6 @@
   
 </nav>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../output_files/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Output Files
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -663,45 +636,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
+  <a href="#excel-outputs" class="md-nav__link">
     <span class="md-ellipsis">
-      Overview
+      Excel Outputs
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-1-importing-movies" class="md-nav__link">
+  <a href="#log-file" class="md-nav__link">
     <span class="md-ellipsis">
-      Step 1: Importing Movies
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#step-2-fluorescent-dot-tracking" class="md-nav__link">
-    <span class="md-ellipsis">
-      Step 2: Fluorescent Dot Tracking
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#step-3-replication-analysis" class="md-nav__link">
-    <span class="md-ellipsis">
-      Step 3: Replication Analysis
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#step-4-double-strand-break-detection" class="md-nav__link">
-    <span class="md-ellipsis">
-      Step 4: Double-Strand Break Detection
+      Log File
     </span>
   </a>
   
@@ -722,25 +668,16 @@
                   
 
 
-<h1 id="pipeline-workflow">Pipeline Workflow</h1>
+<h1 id="output-files">Output Files</h1>
 <ul>
-<li><a href="#overview">Overview</a></li>
-<li><a href="#step-1-importing-movies">Step 1: Importing Movies</a></li>
-<li><a href="#step-2-fluorescent-dot-tracking">Step 2: Fluorescent Dot Tracking</a></li>
-<li><a href="#step-3-replication-analysis">Step 3: Replication Analysis</a></li>
-<li><a href="#step-4-double-strand-break-detection">Step 4: Double-Strand Break Detection</a><pre><code>- Overview: pipeline.md
-- Step 1: Importing Movies: pipeline.md#import-movies
-- Step 2: Fluorescent Dot Tracking: pipeline.md#dot-tracking
-- Step 3: Replication Analysis: pipeline.md#replication-analysis
-- Step 4: Double-Strand Break Detection: pipeline.md#dsb-analysis
+<li><a href="#excel-outputs">Excel Outputs</a></li>
+<li><a href="#log-file">Log File</a><pre><code>- Excel Outputs: output_files.md#excel-results
+- Log File: output_files.md#log-file
 </code></pre>
 </li>
 </ul>
-<h2 id="overview">Overview</h2>
-<h2 id="step-1-importing-movies">Step 1: Importing Movies</h2>
-<h2 id="step-2-fluorescent-dot-tracking">Step 2: Fluorescent Dot Tracking</h2>
-<h2 id="step-3-replication-analysis">Step 3: Replication Analysis</h2>
-<h2 id="step-4-double-strand-break-detection">Step 4: Double-Strand Break Detection</h2>
+<h2 id="excel-outputs">Excel Outputs</h2>
+<h2 id="log-file">Log File</h2>
 
 
 
