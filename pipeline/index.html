@@ -14,7 +14,7 @@
         <link rel="prev" href="../configuration/">
       
       
-        <link rel="next" href="../output_files/">
+        <link rel="next" href="../step2_detection_and_tracking/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Pipeline Workflow - AutoCRAT & Supplementary Scripts Documentation</title>
+        <title>Workflow Overview - AutoCRAT & Supplementary Scripts Documentation</title>
       
     
     
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Pipeline Workflow
+              Workflow Overview
             
           </span>
         </div>
@@ -211,7 +211,7 @@
         
   
   <span class="md-ellipsis">
-    Home
+    Overview
   </span>
   
 
@@ -288,6 +288,43 @@
   
   
   
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Pipeline Workflow
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Pipeline Workflow
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
     <li class="md-nav__item md-nav__item--active">
       
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
@@ -300,7 +337,7 @@
           
   
   <span class="md-ellipsis">
-    Pipeline Workflow
+    Workflow Overview
   </span>
   
 
@@ -311,7 +348,7 @@
         
   
   <span class="md-ellipsis">
-    Pipeline Workflow
+    Workflow Overview
   </span>
   
 
@@ -351,9 +388,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-2-fluorescent-dot-tracking" class="md-nav__link">
+  <a href="#step-2-fluorescent-dot-detection-tracking-cell-identification" class="md-nav__link">
     <span class="md-ellipsis">
-      Step 2: Fluorescent Dot Tracking
+      Step 2: Fluorescent Dot Detection, Tracking &amp; Cell Identification
     </span>
   </a>
   
@@ -369,9 +406,27 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-4-double-strand-break-detection" class="md-nav__link">
+  <a href="#step-4-replisome-normalized-signal-averaging-rnsa" class="md-nav__link">
     <span class="md-ellipsis">
-      Step 4: Double-Strand Break Detection
+      Step 4: Replisome-Normalized Signal Averaging (RNSA)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-5-double-strand-break-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 5: Double-Strand Break Detection
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-6-results-export" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 6: Results Export
     </span>
   </a>
   
@@ -380,6 +435,98 @@
     </ul>
   
 </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../step2_detection_and_tracking/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dot Detection & Tracking
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../step3_replication_analysis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Replication Analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../step4_rnsa/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Replisome-Normalized Signal Averaging
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../step5_dsb/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Double-Strand Break Detection
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
       
     </li>
   
@@ -467,6 +614,41 @@
   
   
   
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    ScreenRNSA
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2">
+            <span class="md-nav__icon md-icon"></span>
+            ScreenRNSA
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../ScreenRNSA/" class="md-nav__link">
         
@@ -477,6 +659,35 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ScreenRNSA_Cutoff/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ScreenRNSA_Cutoff
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -681,9 +892,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-2-fluorescent-dot-tracking" class="md-nav__link">
+  <a href="#step-2-fluorescent-dot-detection-tracking-cell-identification" class="md-nav__link">
     <span class="md-ellipsis">
-      Step 2: Fluorescent Dot Tracking
+      Step 2: Fluorescent Dot Detection, Tracking &amp; Cell Identification
     </span>
   </a>
   
@@ -699,9 +910,27 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-4-double-strand-break-detection" class="md-nav__link">
+  <a href="#step-4-replisome-normalized-signal-averaging-rnsa" class="md-nav__link">
     <span class="md-ellipsis">
-      Step 4: Double-Strand Break Detection
+      Step 4: Replisome-Normalized Signal Averaging (RNSA)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-5-double-strand-break-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 5: Double-Strand Break Detection
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-6-results-export" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 6: Results Export
     </span>
   </a>
   
@@ -726,9 +955,11 @@
 <ul>
 <li><a href="#overview">Overview</a></li>
 <li><a href="#step-1-importing-movies">Step 1: Importing Movies</a></li>
-<li><a href="#step-2-fluorescent-dot-tracking">Step 2: Fluorescent Dot Tracking</a></li>
+<li><a href="#step-2-fluorescent-dot-detection-tracking-cell-identification">Step 2: Fluorescent Dot Detection, Tracking &amp; Cell Identification</a></li>
 <li><a href="#step-3-replication-analysis">Step 3: Replication Analysis</a></li>
-<li><a href="#step-4-double-strand-break-detection">Step 4: Double-Strand Break Detection</a><pre><code>- Overview: pipeline.md
+<li><a href="#step-4-replisome-normalized-signal-averaging-rnsa">Step 4: Replisome-Normalized Signal Averaging (RNSA)</a></li>
+<li><a href="#step-5-double-strand-break-detection">Step 5: Double-Strand Break Detection</a></li>
+<li><a href="#step-6-results-export">Step 6: Results Export</a><pre><code>- Overview: pipeline.md
 - Step 1: Importing Movies: pipeline.md#import-movies
 - Step 2: Fluorescent Dot Tracking: pipeline.md#dot-tracking
 - Step 3: Replication Analysis: pipeline.md#replication-analysis
@@ -737,10 +968,59 @@
 </li>
 </ul>
 <h2 id="overview">Overview</h2>
+<p>AutoCRAT is a Python-based pipeline for analyzing time-lapse microscopy images of chromosomal replication. It automatically identifies, tracks, and analyzes fluorescently labeled loci over time to quantify replication dynamics.</p>
+<p>The AutoCRAT pipeline performs:</p>
+<ul>
+<li>Fluorescent dot identification &amp; tracking (using TrackPy)</li>
+<li>Replication time analysis (sigmoid fitting of fluorescence intensity)</li>
+<li>Double-strand break detection (based on co-localization loss)</li>
+<li>Replisome-normalized signal averaging (RNSA) (quantifying signal dynamics relative to replication timing)</li>
+</ul>
+<p>It integrates multiple submodules:</p>
+<ul>
+<li>AutoCRAT_IDCL.py – Identifies dots by co-localization</li>
+<li>AutoCRAT_Slicer.py – Extracts relevant data regions</li>
+<li>AutoCRAT_RNSA.py – Performs RNSA analysis</li>
+<li>AutoCRAT_DSB.py – Detects double-strand breaks</li>
+<li>AutoCRAT_RepTime.py – Fits sigmoidal curves to replication time data</li>
+<li>AutoCRAT_cfg.py – Handles configuration parameters</li>
+</ul>
 <h2 id="step-1-importing-movies">Step 1: Importing Movies</h2>
-<h2 id="step-2-fluorescent-dot-tracking">Step 2: Fluorescent Dot Tracking</h2>
+<ul>
+<li>Loads microscopy movies using PIMS.</li>
+<li>Supports BioFormats and TIFF sequence modes.</li>
+<li>Reads metadata (e.g., pixel size, timepoints, channels).</li>
+</ul>
+<h2 id="step-2-fluorescent-dot-detection-tracking-cell-identification">Step 2: Fluorescent Dot Detection, Tracking &amp; Cell Identification</h2>
+<ul>
+<li>Uses TrackPy for tracking.</li>
+<li>Dynamically thresholds fluorescence intensities.</li>
+<li>Removes spurious signals &amp; clusters.</li>
+<li>Tracks dots across timepoints.</li>
+<li>Groups co-localized tracks into cells.</li>
+<li>Ensures required channels are present.</li>
+</ul>
 <h2 id="step-3-replication-analysis">Step 3: Replication Analysis</h2>
-<h2 id="step-4-double-strand-break-detection">Step 4: Double-Strand Break Detection</h2>
+<ul>
+<li>Fits sigmoidal curves to intensity time series.</li>
+<li>Identifies replication time midpoints.</li>
+<li>Generates summary statistics.</li>
+</ul>
+<h2 id="step-4-replisome-normalized-signal-averaging-rnsa">Step 4: Replisome-Normalized Signal Averaging (RNSA)</h2>
+<ul>
+<li>Normalizes signals based on replication timing.</li>
+<li>Aligns intensities in replisome time units.</li>
+</ul>
+<h2 id="step-5-double-strand-break-detection">Step 5: Double-Strand Break Detection</h2>
+<ul>
+<li>Detects loss of co-localization between loci.</li>
+<li>Requires pre-defined dsb_channels in YAML.</li>
+</ul>
+<h2 id="step-6-results-export">Step 6: Results Export</h2>
+<ul>
+<li>Saves Excel files with tracked data.</li>
+<li>Generates summary reports &amp; visualizations.</li>
+</ul>
 
 
 
