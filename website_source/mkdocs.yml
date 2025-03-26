@@ -1,9 +1,25 @@
-site_name: AutoCRAT & Supplementary Scripts Documentationtheme:  name: material  # Use Material theme (optional)
+site_name: AutoCRAT & Supplementary Scripts Documentation
+theme:
+  name: material  # Use Material theme (optional)
   features:
-    - toc.hidden  # Hides the Table of Contents from the right sidebarnav:  - Home: index.md
-  - Scripts:
+    - toc.hidden  # Hides the Table of Contents from the right sidebar
+nav:
+  - Overview: index.md
+  - Installation: installation.md
+  - Quick Start: quick_start.md
+  - Configuration: configuration.md
+  - Pipeline Workflow: 
+    - Workflow Overview: pipeline.md 
+    - "Dot Detection & Tracking": step2_detection_and_tracking.md
+    - Replication Analysis: step3_replication_analysis.md
+    - Replisome-Normalized Signal Averaging: step4_rnsa.md
+    - Double-Strand Break Detection: step5_dsb.md
+  - Output Files: output_files.md
+  - Supplementary Scripts:
     - MergeAutoCRAT: MergeAutoCRAT.md
-    - ScreenRNSA: ScreenRNSA.md
+    - ScreenRNSA:
+      - ScreenRNSA: ScreenRNSA.md
+      - ScreenRNSA_Cutoff: ScreenRNSA_Cutoff.md
     - ScreenByRepTime: ScreenByRepTime.md
     - CherryPicker: CherryPicker.md
     - RNSAheatmap: RNSAheatmap.md
@@ -11,6 +27,7 @@ site_name: AutoCRAT & Supplementary Scripts Documentationtheme:  name: materia
     - PlotRNSA: PlotRNSA.md
     - RNSAsigmoid: RNSAsigmoid.md
     - SwarmPlot: SwarmPlot.md
+  - Contact: contact.md
 
 extra_css:
   - assets/extra.css
@@ -25,6 +42,7 @@ extra:
   analytics:
     provider: google
     property: G-VHGBMP72WJ  # Replace with your Measurement ID
+
 
 
 site_url: https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/

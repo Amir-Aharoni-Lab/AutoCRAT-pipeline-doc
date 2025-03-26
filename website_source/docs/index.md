@@ -1,5 +1,7 @@
 # Welcome to AutoCRAT Pipeline Documentation
 
+Automated Chromosome Replication Analysis & Tracking (AutoCRAT) pipeline analyzes time-lapse microscopy data to track chromosomal replication and dynamic interactions of fluorescently labeled loci in live cells.
+
 This guide provides documentation for the **AutoCRAT pipeline** and its supplementary scripts, designed to simplify pipeline results' management and visualization.
 
 ## About AutoCRAT
