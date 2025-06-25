@@ -1171,6 +1171,7 @@
 
 <hr />
 <p>The <strong>ScreenCells_TP_Intensity</strong> script analyzes cell intensity data from AutoCRAT output files at specific time points. It classifies cells as <strong>positive</strong> or <strong>negative</strong> based on whether the intensity in a specified channel exceeds a threshold. The script handles missing data with neighbor interpolation and summarizes results with classification sheets and summary plots embedded directly in Excel.</p>
+<hr />
 <blockquote>
 <h3 id="region-size-for-intensity-detection">📌 Region Size for Intensity Detection</h3>
 <p>To adjust the <strong>region AutoCRAT uses to detect dot intensity</strong> (e.g., for channels like EGFP), update the following parameter in the <code>AutoCRAT config - Template.yml</code> file:</p>
@@ -1179,6 +1180,7 @@
 <p>This sets the region size in pixels as <code>[z, y, x]</code>, where AutoCRAT measures intensity.<br />
 Increasing these values widens the detection zone and can help capture signals that are <strong>not co-localized</strong>.</p>
 </blockquote>
+<hr />
 <h2 id="key-tasks">Key Tasks</h2>
 <h3 id="-read-and-parse-input-files">&nbsp;&nbsp;- Read and Parse Input Files</h3>
 <ul>
