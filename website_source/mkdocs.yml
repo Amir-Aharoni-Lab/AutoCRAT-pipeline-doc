@@ -20,6 +20,7 @@ nav:
     - ScreenRNSA:
       - ScreenRNSA: ScreenRNSA.md
       - ScreenRNSA_Cutoff: ScreenRNSA_Cutoff.md
+    - ScreenCells_TP_Intensity: ScreenCells_TP_Intensity.md
     - ScreenByRepTime: ScreenByRepTime.md
     - CherryPicker: CherryPicker.md
     - RNSAheatmap: RNSAheatmap.md
