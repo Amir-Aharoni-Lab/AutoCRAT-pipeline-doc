@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/ScreenRNSA_Cutoff/">
+        <link rel="canonical" href="https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/ScreenCells_TP_Intensity_colocalize/">
       
       
-        <link rel="prev" href="../ScreenRNSA/">
+        <link rel="prev" href="../ScreenCells_TP_Intensity/">
       
       
-        <link rel="next" href="../ScreenCells_TP_Intensity/">
+        <link rel="next" href="../ScreenByRepTime/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>ScreenRNSA_Cutoff - AutoCRAT & Supplementary Scripts Documentation</title>
+        <title>ScreenCells_TP_Intensity_colocalize - AutoCRAT & Supplementary Scripts Documentation</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#screenrnsa_cutoff-script-documentation" class="md-skip">
+        <a href="#screencells_tp_intensity_colocalize-script-documentation" class="md-skip">
           Skip to content
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              ScreenRNSA_Cutoff
+              ScreenCells_TP_Intensity_colocalize
             
           </span>
         </div>
@@ -509,19 +509,17 @@
                 
   
   
-    
   
   
-  
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" >
         
           
           <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
@@ -535,7 +533,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_7_2">
             <span class="md-nav__icon md-icon"></span>
             ScreenRNSA
@@ -567,30 +565,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    ScreenRNSA_Cutoff
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../ScreenRNSA_Cutoff/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -599,203 +577,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#key-tasks" class="md-nav__link">
-    <span class="md-ellipsis">
-      Key Tasks
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Key Tasks">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#-read-input-files" class="md-nav__link">
-    <span class="md-ellipsis">
-      &nbsp;&nbsp;- Read Input Files
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#-apply-dynamic-cutoff-time" class="md-nav__link">
-    <span class="md-ellipsis">
-      &nbsp;&nbsp;- Apply Dynamic Cutoff Time
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#-apply-rolling-window-analysis" class="md-nav__link">
-    <span class="md-ellipsis">
-      &nbsp;&nbsp;- Apply Rolling Window Analysis
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#-filter-out-invalid-windows" class="md-nav__link">
-    <span class="md-ellipsis">
-      &nbsp;&nbsp;- Filter Out Invalid Windows
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#-categorize-cells-as-positive-or-negative" class="md-nav__link">
-    <span class="md-ellipsis">
-      &nbsp;&nbsp;- Categorize Cells as Positive or Negative
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#-generate-updated-files" class="md-nav__link">
-    <span class="md-ellipsis">
-      &nbsp;&nbsp;- Generate Updated Files
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-to-use-screenrnsa" class="md-nav__link">
-    <span class="md-ellipsis">
-      How to Use ScreenRNSA
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="How to Use ScreenRNSA">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#step-1-edit-parameters-in-the-script" class="md-nav__link">
-    <span class="md-ellipsis">
-      Step 1: Edit Parameters in the Script
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Step 1: Edit Parameters in the Script">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#specify-the-rnsa-file-location" class="md-nav__link">
-    <span class="md-ellipsis">
-      &nbsp;&nbsp;• Specify the RNSA File Location
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#define-the-autocrat-results-folders" class="md-nav__link">
-    <span class="md-ellipsis">
-      &nbsp;&nbsp;• Define the AutoCRAT Results Folders
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#set-analysis-parameters" class="md-nav__link">
-    <span class="md-ellipsis">
-      &nbsp;&nbsp;• Set Analysis Parameters
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#configure-summary-chart-parameters" class="md-nav__link">
-    <span class="md-ellipsis">
-      &nbsp;&nbsp;• Configure Summary Chart Parameters
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#step-2-run-the-script" class="md-nav__link">
-    <span class="md-ellipsis">
-      Step 2: Run the Script
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#step-3-output-files" class="md-nav__link">
-    <span class="md-ellipsis">
-      Step 3: Output Files
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#example-configuration" class="md-nav__link">
-    <span class="md-ellipsis">
-      Example Configuration
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Example Configuration">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#expected-output" class="md-nav__link">
-    <span class="md-ellipsis">
-      Expected Output
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -834,10 +615,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../ScreenCells_TP_Intensity_colocalize/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    ScreenCells_TP_Intensity_colocalize
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -846,6 +647,86 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#region-size-for-intensity-detection-in-basic-vs-groupb" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Region Size for Intensity Detection in Basic vs GroupB
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-tasks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Tasks
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Key Tasks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#-independently-process-basic-and-groupb-conditions" class="md-nav__link">
+    <span class="md-ellipsis">
+      &nbsp;&nbsp;- Independently Process Basic and GroupB Conditions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-perform-colocalization-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      &nbsp;&nbsp;- Perform Colocalization Analysis
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-generate-summary-excel-file-with-plots" class="md-nav__link">
+    <span class="md-ellipsis">
+      &nbsp;&nbsp;- Generate Summary Excel File with Plots
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-use-screencells_tp_intensity-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Use ScreenCells_TP_Intensity Script
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1052,6 +933,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#region-size-for-intensity-detection-in-basic-vs-groupb" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Region Size for Intensity Detection in Basic vs GroupB
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#key-tasks" class="md-nav__link">
     <span class="md-ellipsis">
       Key Tasks
@@ -1062,54 +952,27 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#-read-input-files" class="md-nav__link">
+  <a href="#-independently-process-basic-and-groupb-conditions" class="md-nav__link">
     <span class="md-ellipsis">
-      &nbsp;&nbsp;- Read Input Files
+      &nbsp;&nbsp;- Independently Process Basic and GroupB Conditions
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#-apply-dynamic-cutoff-time" class="md-nav__link">
+  <a href="#-perform-colocalization-analysis" class="md-nav__link">
     <span class="md-ellipsis">
-      &nbsp;&nbsp;- Apply Dynamic Cutoff Time
+      &nbsp;&nbsp;- Perform Colocalization Analysis
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#-apply-rolling-window-analysis" class="md-nav__link">
+  <a href="#-generate-summary-excel-file-with-plots" class="md-nav__link">
     <span class="md-ellipsis">
-      &nbsp;&nbsp;- Apply Rolling Window Analysis
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#-filter-out-invalid-windows" class="md-nav__link">
-    <span class="md-ellipsis">
-      &nbsp;&nbsp;- Filter Out Invalid Windows
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#-categorize-cells-as-positive-or-negative" class="md-nav__link">
-    <span class="md-ellipsis">
-      &nbsp;&nbsp;- Categorize Cells as Positive or Negative
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#-generate-updated-files" class="md-nav__link">
-    <span class="md-ellipsis">
-      &nbsp;&nbsp;- Generate Updated Files
+      &nbsp;&nbsp;- Generate Summary Excel File with Plots
     </span>
   </a>
   
@@ -1121,110 +984,11 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-to-use-screenrnsa" class="md-nav__link">
+  <a href="#how-to-use-screencells_tp_intensity-script" class="md-nav__link">
     <span class="md-ellipsis">
-      How to Use ScreenRNSA
+      How to Use ScreenCells_TP_Intensity Script
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="How to Use ScreenRNSA">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#step-1-edit-parameters-in-the-script" class="md-nav__link">
-    <span class="md-ellipsis">
-      Step 1: Edit Parameters in the Script
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Step 1: Edit Parameters in the Script">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#specify-the-rnsa-file-location" class="md-nav__link">
-    <span class="md-ellipsis">
-      &nbsp;&nbsp;• Specify the RNSA File Location
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#define-the-autocrat-results-folders" class="md-nav__link">
-    <span class="md-ellipsis">
-      &nbsp;&nbsp;• Define the AutoCRAT Results Folders
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#set-analysis-parameters" class="md-nav__link">
-    <span class="md-ellipsis">
-      &nbsp;&nbsp;• Set Analysis Parameters
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#configure-summary-chart-parameters" class="md-nav__link">
-    <span class="md-ellipsis">
-      &nbsp;&nbsp;• Configure Summary Chart Parameters
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#step-2-run-the-script" class="md-nav__link">
-    <span class="md-ellipsis">
-      Step 2: Run the Script
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#step-3-output-files" class="md-nav__link">
-    <span class="md-ellipsis">
-      Step 3: Output Files
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#example-configuration" class="md-nav__link">
-    <span class="md-ellipsis">
-      Example Configuration
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Example Configuration">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#expected-output" class="md-nav__link">
-    <span class="md-ellipsis">
-      Expected Output
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1243,160 +1007,72 @@
                   
 
 
-<h1 id="screenrnsa_cutoff-script-documentation">ScreenRNSA_Cutoff Script Documentation</h1>
-<iframe src="../assets/ScreenRNSA_Cutoff_diagram.html" width="800" height="300" style="border:none; margin:0; padding:0; display:block;"></iframe>
-<p>The <strong>ScreenRNSA_Cutoff</strong> script is an enhanced version of ScreenRNSA, designed to screen cells appearing in the RNSA analysis using a rolling window intensity approach. It introduces a dynamic cutoff time, ensuring each cell is analyzed only up to a calculated time point derived from the Rep Summary file.</p>
+<h1 id="screencells_tp_intensity_colocalize-script-documentation">ScreenCells_TP_Intensity_colocalize Script Documentation</h1>
+<iframe src="../assets/ScreenCells_TP_intensity_diagram.html" width="800" height="350" style="border:none; margin:0; padding:0; display:block;"></iframe>
+
+<hr />
+<p>The <strong>ScreenCells_TP_Intensity_colocalize</strong> script extends the functionality of the <strong>ScreenCells_TP_Intensity</strong> script. It analyzes and compares two sets of AutoCRAT output files: one for a Basic condition and one for a GroupB condition. For each selected time point, it checks cell intensity in a chosen channel and classifies cells as positive or negative based on a defined threshold. Missing intensity values are handled using neighboring time points.
+The script then compares the positive cells only between the two conditions (Basic vs. GroupB) to determine if they are colocalized — based on either spatial closeness (within a defined x/y/z tolerance) or small intensity differences. All results are saved as time-point-specific Excel files, along with a summary Excel file that includes colocalization statistics and embedded plots.</p>
+<hr />
+<blockquote>
+<h3 id="region-size-for-intensity-detection-in-basic-vs-groupb">📌 Region Size for Intensity Detection in Basic vs GroupB</h3>
+<p>To compare colocalized vs non-colocalized signal intensities (e.g., EGFP), the AutoCRAT pipeline should be run twice with different
+region sizes, configured using the <code>idcl_slice_diameter</code> parameter in the AutoCRAT config - <strong>Template.yml</strong> file.</p>
+<p>🔹 <strong>Basic Condition</strong> – Colocalized Detection
+Use a small region to focus on tightly colocalized intensity:</p>
+<p><code>idcl_slice_diameter:
+ *c2: [3, 5, 5]</code></p>
+<p>This defines the region in pixels as [z, y, x], targeting signals that are strongly colocalized with other markers.<br></p>
+<p>🔹 <strong>GroupB Condition</strong> – Broad Detection for Non-Colocalized Signals
+Use a larger region to capture broader or displaced intensity:</p>
+<p><code>idcl_slice_diameter:
+ *c2: [7, 20, 20]</code></p>
+<p>This setting expands the detection area, allowing AutoCRAT to identify signal that is not necessarily colocalized but still present in
+the surrounding cellular region.<br></p>
+<p>⚠️ <strong>Limitation</strong> <br>
+AutoCRAT detects only a single maximum intensity point per channel within the defined region.
+However, in some biological cases, multiple spatially distinct maxima may exist (e.g., multiple foci with similar intensity). 
+This means:<br>
+- Only one of the potential maxima is reported. <br>
+- Other relevant high-intensity signals within the region might be ignored. <br>
+This limitation should be considered when interpreting results—especially when using large regions where multiple distinct signals might 
+be present.</p>
+</blockquote>
 <hr />
 <h2 id="key-tasks">Key Tasks</h2>
-<h3 id="-read-input-files">&nbsp;&nbsp;- Read Input Files</h3>
+<h3 id="-independently-process-basic-and-groupb-conditions">&nbsp;&nbsp;- Independently Process Basic and GroupB Conditions</h3>
+<p>The script separately analyzes two AutoCRAT runs: one labeled <strong>Basic</strong> and the other <strong>GroupB</strong>.<br>
+For each condition, it:<br>
+- Loads the corresponding '<strong>Rep Summary</strong>' file to extract the list of imaging fields.<br>
+- Finds and loads all matching '<strong>Results</strong>' files.<br>
+- For each specified time point, extracts intensity and spatial data from cell sheets.<br>
+- Handles missing intensity values in the <code>channel_of_interest</code> using neighbor-based interpolation.<br>
+- Classifies each cell as <strong>Positive</strong> or <strong>Negative</strong> based on the defined intensity threshold (<code>min_intensity</code>). Cells are marked <strong>Positive</strong> if intensity in the <code>channel_of_interest</code> exceeds the threshold <code>min_intensity</code>. All others are marked <strong>Negative</strong>.<br>
+- Outputs per-time-point Excel files (Positive and Negative sheets).</p>
+<h3 id="-perform-colocalization-analysis">&nbsp;&nbsp;- Perform Colocalization Analysis</h3>
 <ul>
-<li>The script reads and processes the '<strong>RNSA</strong>', '<strong>Rep Summary</strong>', and '<strong>Results</strong>' files from an AutoCRAT run.</li>
-<li>Filters the 'Rep Summary' file to include only the cells present in the RNSA analysis.</li>
+<li>For each time point, compares only Positive cells from GroupB to Positive cells from Basic.</li>
+<li>A GroupB cell is declared Colocalized if:<ul>
+<li>It matches a Basic cell (same Field and Cell ID), and<br>
+Either:</li>
+<li>Their spatial coordinates (x, y, z) are within <code>position_tolerance</code>, or</li>
+<li>Their intensity difference is within <code>intensity_delta_threshold</code> (if spatial data is unavailable).</li>
+<li>Cells that do not match or do not meet these criteria are labeled Non-colocalized.</li>
 </ul>
-<h3 id="-apply-dynamic-cutoff-time">&nbsp;&nbsp;- Apply Dynamic Cutoff Time</h3>
-<ul>
-<li>Determines a cutoff time for each cell based on time points from the 'Rep Summary' file.</li>
-<li>Trims the intensity time series to exclude data points beyond the calculated cutoff time before further analysis.</li>
+</li>
 </ul>
-<h3 id="-apply-rolling-window-analysis">&nbsp;&nbsp;- Apply Rolling Window Analysis</h3>
-<ul>
-<li>Analyzes the trimmed intensity time series for each cell by dividing the data into <strong>rolling windows</strong> of a predefined length (window_length).</li>
-<li>Calculates the average intensity for each window.</li>
-</ul>
-<h3 id="-filter-out-invalid-windows">&nbsp;&nbsp;- Filter Out Invalid Windows</h3>
-<ul>
-<li>Discards windows where more than 30% of the data points are missing (<code>NaN</code>), as they are unreliable.</li>
-<li>Excludes cells with fewer than 25% valid windows, as there isn’t enough data for confident analysis.</li>
-</ul>
-<h3 id="-categorize-cells-as-positive-or-negative">&nbsp;&nbsp;- Categorize Cells as Positive or Negative</h3>
-<ul>
-<li>Checks if any valid rolling windows have an average intensity above the specified threshold (<code>min_intensity</code>).</li>
-<li>Marks cells as <strong>positive</strong> if they meet the threshold; otherwise, marks them as <strong>negative</strong>.</li>
-</ul>
-<h3 id="-generate-updated-files">&nbsp;&nbsp;- Generate Updated Files</h3>
-<ul>
-<li>Creates new '<strong>Rep Summary</strong>' and '<strong>RNSA</strong>' files.</li>
-<li>The output filenames now include the cutoff time value in addition to the rolling window and intensity threshold parameters.</li>
-<li>The RNSA file includes cells that passed the intensity threshold.</li>
-</ul>
+<h3 id="-generate-summary-excel-file-with-plots">&nbsp;&nbsp;- Generate Summary Excel File with Plots</h3>
+<p>At the end of the analysis, the script generates a single Excel file that consolidates results across all specified time points. This file contains three sheets:<br>
+- <strong>Basic</strong> and <strong>GroupB</strong> Sheets <br>
+Each sheet contains:<br>
+    - A summary table with: Total cells, positive cells, and percentage per time point.<br>
+    - Two embedded plots (counts and percentages).<br>
+- <strong>Analysis</strong> Sheet<br>
+This sheet compares the two conditions and includes:<br>
+    - A merged table showing: Total and positive cell counts for both Basic and GroupB; Percentage of positives; Colocalized and Non-Colocalized cell counts per time point<br>
+    - One embedded plot summarizing the above data</p>
 <hr />
-<h2 id="how-to-use-screenrnsa">How to Use ScreenRNSA</h2>
-<h3 id="step-1-edit-parameters-in-the-script">Step 1: Edit Parameters in the Script</h3>
-<h4 id="specify-the-rnsa-file-location">&nbsp;&nbsp;• Specify the RNSA File Location</h4>
-<p>Set the folder and filename of the RNSA file. Ensure the corresponding <strong>Rep Summary</strong> file is located in the same folder:</p>
-<pre><code class="language-python">rnsa_folder = r'path_to_your_folder'
-rnsa_filename = 'your_rnsa_file.xlsx'
-</code></pre>
-<h4 id="define-the-autocrat-results-folders">&nbsp;&nbsp;• Define the AutoCRAT Results Folders</h4>
-<p>List all folders containing AutoCRAT "Results" files:</p>
-<pre><code class="language-python">folders = [
-    r'path_to_results_folder1',
-    r'path_to_results_folder2',
-]
-</code></pre>
-<h4 id="set-analysis-parameters">&nbsp;&nbsp;• Set Analysis Parameters</h4>
-<p>Update the parameters for cell screening:<br>
-- <code>Channel of Interest</code>: Specify the intensity channel to analyze.<br>
-- <code>Window Length</code>: Set the length (in timepoints) of the rolling window for intensity averaging.<br>
-- <code>Minimum Intensity Threshold</code>: Define the threshold for the average intensity during the window.<br>
-- <code>Cutoff time</code>:  Defines a normalized time limit for each cell. The script calculates this cutoff dynamically based on the Rep Summary time points and excludes any data beyond this point. </p>
-<pre><code class="language-python">channel_of_interest = 'EGFP'
-window_length = N
-min_intensity = T
-cutoff_time = X
-</code></pre>
-<blockquote>
-<p><strong>Example: How is the cutoff time calculated?*
-For </strong>Cell 16** (from the provided data):  </p>
-<table>
-<thead>
-<tr>
-<th>Field</th>
-<th>Cell</th>
-<th>Si-Rhodamine</th>
-<th>tdTomato</th>
-<th>ΔT (tdTomato - Si-Rhodamine)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>20250216_</td>
-<td>16</td>
-<td><strong>32.594</strong></td>
-<td><strong>59.138</strong></td>
-<td><strong>26.544</strong></td>
-</tr>
-</tbody>
-</table>
-<p>For each cell, the script extracts two time points from the <strong>Rep Summary</strong> file:<br />
-- <code>T0</code>: The first time point (e.g., <strong>32.594</strong> for Si-Rhodamine in the example).<br />
-- <code>T1</code>: The second time point (e.g., <strong>59.138</strong> for tdTomato in the example).  </p>
-<p>Using these values, the <strong>cutoff time</strong> is calculated dynamically using the formula:</p>
-<p>$$
-\text{actual_cutoff} = T1 + (T1 - T0) \times (\text{cutoff_time} - 1)
-$$</p>
-<p>Assuming <strong>cutoff_time = 1.1</strong>, the actual cutoff is calculated as follows:</p>
-<p>$$
-\text{actual_cutoff} = 59.138 + (26.544 \times (1.1 - 1))=61.792
-$$</p>
-<p>Thus, the script trims <strong>cell 16</strong> data to exclude any time points <strong>beyond 61</strong> to apply rolling window analysis.</p>
-</blockquote>
-<h4 id="configure-summary-chart-parameters">&nbsp;&nbsp;• Configure Summary Chart Parameters</h4>
-<p>Set the appearance of the RNSA summary chart:</p>
-<pre><code class="language-python">colors = ['red', 'orange', 'lime']  # Chart colors
-rnsa_x_axis = [-2, 3]  # X-axis range
-rnsa_y_axis = [0.1, 0.8]  # Y-axis range
-</code></pre>
-<hr />
-<h3 id="step-2-run-the-script">Step 2: Run the Script</h3>
-<p>After editing the parameters: <br>
-&nbsp;&nbsp;• Save the script. <br>
-&nbsp;&nbsp;• Run the script in your Python environment (e.g., command line, Jupyter Notebook, or PyCharm).</p>
-<hr />
-<h3 id="step-3-output-files">Step 3: Output Files</h3>
-<p>The script generates two output files, saved in the same folder as the original RNSA file:</p>
-<p>&nbsp;&nbsp;•    <code>your_rnsa_file - Rep Summary - Screened (Window N, Int T, Cutoff X).xlsx</code> : Summarizes positive and negative cells based on the analysis.  </p>
-<p>&nbsp;&nbsp;•    <code>your_rnsa_file - RNSA - Screened (Window N, Int T, , Cutoff X).xlsx</code>: Contains RNSA data for cells that passed the intensity threshold.  </p>
-<hr />
-<h2 id="example-configuration">Example Configuration</h2>
-<p>Below is a sample configuration for running the script:</p>
-<pre><code class="language-python">&quot;&quot;&quot; Parameters &quot;&quot;&quot;
-
-# Location and filename of the RNSA file to be screened.
-# There must be an AutoCRAT &quot;Rep Summary&quot; file in the same folder,
-# and with an identical name (except with &quot;Rep Summary&quot; instead of &quot;RNSA&quot;).
-rnsa_folder = r'C:\Project\Merged_Results'
-rnsa_filename = 'Merged_Project_Results - RNSA.xlsx'
-
-# Folders in which all the relevant AutoCRAT &quot;Results&quot; files are located.
-folders = [
-    r'C:\Project\Run1',
-    r'C:\Project\Run2',
-    r'C:\Project\Run3'
-]
-
-# Name of channel in which intensity should be examined.
-channel_of_interest = 'EGFP'
-
-# Length of time windows (in timepoints) during which the intensity will be averaged.
-window_length = 12
-# Minimum intensity (average during time window) which qualifies a cell for selection.
-min_intensity = 65
-# New parameter: Cutoff time in normalized units.
-cutoff_time = 1.1  
-
-# Parameters for RNSA summary chart.
-colors = ['red', 'orange', 'lime']
-rnsa_x_axis = [-2, 3]
-rnsa_y_axis = [0.1, 0.8]
-</code></pre>
-<h3 id="expected-output">Expected Output</h3>
-<ul>
-<li><code>C:\Project\Merged_Results\Merged_Project_Results - Rep Summary - Screened (Window 12, Int 65, Cutoff 1.1).xlsx</code></li>
-<li><code>C:\Project\Merged_Results\Merged_Project_Results - RNSA - Screened (Window 12, Int 65, Cutoff 1.1).xlsx</code></li>
-</ul>
-<hr />
-<p>By following these steps, you can efficiently identify and categorize cells based on intensity thresholds while dynamically adjusting the analysis window using a cutoff time, ensuring accurate and reliable RNSA analysis.</p>
+<h2 id="how-to-use-screencells_tp_intensity-script">How to Use ScreenCells_TP_Intensity Script</h2>
 
 
 
