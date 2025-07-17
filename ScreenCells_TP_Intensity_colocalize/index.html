@@ -685,7 +685,7 @@
           <li class="md-nav__item">
   <a href="#-independently-process-basic-and-groupb-conditions" class="md-nav__link">
     <span class="md-ellipsis">
-      &nbsp;&nbsp;- Independently Process Basic and GroupB Conditions
+      - Independently Process Basic and GroupB Conditions
     </span>
   </a>
   
@@ -694,7 +694,7 @@
           <li class="md-nav__item">
   <a href="#-perform-colocalization-analysis" class="md-nav__link">
     <span class="md-ellipsis">
-      &nbsp;&nbsp;- Perform Colocalization Analysis
+      - Perform Colocalization Analysis
     </span>
   </a>
   
@@ -703,7 +703,16 @@
           <li class="md-nav__item">
   <a href="#-generate-summary-excel-file-with-plots" class="md-nav__link">
     <span class="md-ellipsis">
-      &nbsp;&nbsp;- Generate Summary Excel File with Plots
+      - Generate Summary Excel File with Plots
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#important-cell-order-consistency-between-runs" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚠️ Important: Cell Order Consistency Between Runs
     </span>
   </a>
   
@@ -715,11 +724,209 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-to-use-screencells_tp_intensity-script" class="md-nav__link">
+  <a href="#how-to-use-screencells_tp_intensity_colocalize-script" class="md-nav__link">
     <span class="md-ellipsis">
-      How to Use ScreenCells_TP_Intensity Script
+      How to Use ScreenCells_TP_Intensity_colocalize Script
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="How to Use ScreenCells_TP_Intensity_colocalize Script">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-edit-parameters-in-the-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 1: Edit Parameters in the Script
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 1: Edit Parameters in the Script">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#specify-the-file-locations-for-both-conditions" class="md-nav__link">
+    <span class="md-ellipsis">
+      • Specify the File Locations for Both Conditions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-output-folder" class="md-nav__link">
+    <span class="md-ellipsis">
+      • Set Output Folder
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-analysis-parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      • Set Analysis Parameters
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#about-position_tolerance-and-intensity_delta_threshold" class="md-nav__link">
+    <span class="md-ellipsis">
+      📐 About position_tolerance and intensity_delta_threshold
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📐 About position_tolerance and intensity_delta_threshold">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#position_tolerance" class="md-nav__link">
+    <span class="md-ellipsis">
+      • position_tolerance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#intensity_delta_threshold" class="md-nav__link">
+    <span class="md-ellipsis">
+      • intensity_delta_threshold
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-run-the-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 2: Run the Script
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-output-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 3: Output Files
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 3: Output Files">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#per-time-point-classification-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      • Per-Time Point Classification Files
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#final-combined-summary-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      • Final Combined Summary File
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Configuration
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Example Configuration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#expected-output" class="md-nav__link">
+    <span class="md-ellipsis">
+      Expected Output
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-output-basic-condition-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      📊 Example Output: Basic Condition Summary
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📊 Example Output: Basic Condition Summary">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#summary-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary Table
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plots" class="md-nav__link">
+    <span class="md-ellipsis">
+      Plots
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-analysis-sheet-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      📊 Example: Analysis Sheet Table
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-plot-colocalized-vs-non-colocalized-cells" class="md-nav__link">
+    <span class="md-ellipsis">
+      📈 Example Plot: Colocalized vs Non-Colocalized Cells
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -954,7 +1161,7 @@
           <li class="md-nav__item">
   <a href="#-independently-process-basic-and-groupb-conditions" class="md-nav__link">
     <span class="md-ellipsis">
-      &nbsp;&nbsp;- Independently Process Basic and GroupB Conditions
+      - Independently Process Basic and GroupB Conditions
     </span>
   </a>
   
@@ -963,7 +1170,7 @@
           <li class="md-nav__item">
   <a href="#-perform-colocalization-analysis" class="md-nav__link">
     <span class="md-ellipsis">
-      &nbsp;&nbsp;- Perform Colocalization Analysis
+      - Perform Colocalization Analysis
     </span>
   </a>
   
@@ -972,7 +1179,16 @@
           <li class="md-nav__item">
   <a href="#-generate-summary-excel-file-with-plots" class="md-nav__link">
     <span class="md-ellipsis">
-      &nbsp;&nbsp;- Generate Summary Excel File with Plots
+      - Generate Summary Excel File with Plots
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#important-cell-order-consistency-between-runs" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚠️ Important: Cell Order Consistency Between Runs
     </span>
   </a>
   
@@ -984,11 +1200,209 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-to-use-screencells_tp_intensity-script" class="md-nav__link">
+  <a href="#how-to-use-screencells_tp_intensity_colocalize-script" class="md-nav__link">
     <span class="md-ellipsis">
-      How to Use ScreenCells_TP_Intensity Script
+      How to Use ScreenCells_TP_Intensity_colocalize Script
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="How to Use ScreenCells_TP_Intensity_colocalize Script">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-edit-parameters-in-the-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 1: Edit Parameters in the Script
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 1: Edit Parameters in the Script">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#specify-the-file-locations-for-both-conditions" class="md-nav__link">
+    <span class="md-ellipsis">
+      • Specify the File Locations for Both Conditions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-output-folder" class="md-nav__link">
+    <span class="md-ellipsis">
+      • Set Output Folder
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-analysis-parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      • Set Analysis Parameters
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#about-position_tolerance-and-intensity_delta_threshold" class="md-nav__link">
+    <span class="md-ellipsis">
+      📐 About position_tolerance and intensity_delta_threshold
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📐 About position_tolerance and intensity_delta_threshold">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#position_tolerance" class="md-nav__link">
+    <span class="md-ellipsis">
+      • position_tolerance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#intensity_delta_threshold" class="md-nav__link">
+    <span class="md-ellipsis">
+      • intensity_delta_threshold
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-run-the-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 2: Run the Script
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-output-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 3: Output Files
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 3: Output Files">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#per-time-point-classification-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      • Per-Time Point Classification Files
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#final-combined-summary-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      • Final Combined Summary File
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Configuration
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Example Configuration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#expected-output" class="md-nav__link">
+    <span class="md-ellipsis">
+      Expected Output
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-output-basic-condition-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      📊 Example Output: Basic Condition Summary
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📊 Example Output: Basic Condition Summary">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#summary-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary Table
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plots" class="md-nav__link">
+    <span class="md-ellipsis">
+      Plots
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-analysis-sheet-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      📊 Example: Analysis Sheet Table
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-plot-colocalized-vs-non-colocalized-cells" class="md-nav__link">
+    <span class="md-ellipsis">
+      📈 Example Plot: Colocalized vs Non-Colocalized Cells
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1008,7 +1422,7 @@
 
 
 <h1 id="screencells_tp_intensity_colocalize-script-documentation">ScreenCells_TP_Intensity_colocalize Script Documentation</h1>
-<iframe src="../assets/ScreenCells_TP_intensity_diagram.html" width="800" height="350" style="border:none; margin:0; padding:0; display:block;"></iframe>
+<iframe src="../assets/ScreenCells_TP_intensity_colocalize_diagram.html" width="800" height="350" style="border:none; margin:0; padding:0; display:block;"></iframe>
 
 <hr />
 <p>The <strong>ScreenCells_TP_Intensity_colocalize</strong> script extends the functionality of the <strong>ScreenCells_TP_Intensity</strong> script. It analyzes and compares two sets of AutoCRAT output files: one for a Basic condition and one for a GroupB condition. For each selected time point, it checks cell intensity in a chosen channel and classifies cells as positive or negative based on a defined threshold. Missing intensity values are handled using neighboring time points.
@@ -1040,39 +1454,385 @@ be present.</p>
 </blockquote>
 <hr />
 <h2 id="key-tasks">Key Tasks</h2>
-<h3 id="-independently-process-basic-and-groupb-conditions">&nbsp;&nbsp;- Independently Process Basic and GroupB Conditions</h3>
-<p>The script separately analyzes two AutoCRAT runs: one labeled <strong>Basic</strong> and the other <strong>GroupB</strong>.<br>
-For each condition, it:<br>
-- Loads the corresponding '<strong>Rep Summary</strong>' file to extract the list of imaging fields.<br>
-- Finds and loads all matching '<strong>Results</strong>' files.<br>
-- For each specified time point, extracts intensity and spatial data from cell sheets.<br>
-- Handles missing intensity values in the <code>channel_of_interest</code> using neighbor-based interpolation.<br>
-- Classifies each cell as <strong>Positive</strong> or <strong>Negative</strong> based on the defined intensity threshold (<code>min_intensity</code>). Cells are marked <strong>Positive</strong> if intensity in the <code>channel_of_interest</code> exceeds the threshold <code>min_intensity</code>. All others are marked <strong>Negative</strong>.<br>
-- Outputs per-time-point Excel files (Positive and Negative sheets).</p>
-<h3 id="-perform-colocalization-analysis">&nbsp;&nbsp;- Perform Colocalization Analysis</h3>
+<h3 id="-independently-process-basic-and-groupb-conditions">- Independently Process Basic and GroupB Conditions</h3>
+<p>The script separately analyzes two AutoCRAT runs: one labeled <strong>Basic</strong> and the other <strong>GroupB</strong>.<br />
+For each condition, it:</p>
 <ul>
-<li>For each time point, compares only Positive cells from GroupB to Positive cells from Basic.</li>
-<li>A GroupB cell is declared Colocalized if:<ul>
-<li>It matches a Basic cell (same Field and Cell ID), and<br>
-Either:</li>
+<li>Loads the corresponding <strong>Rep Summary</strong> file to extract the list of imaging fields.</li>
+<li>Finds and loads all matching <strong>Results</strong> files.</li>
+<li>For each specified time point, extracts intensity and spatial data from cell sheets.</li>
+<li>Handles missing intensity values in the <code>channel_of_interest</code> using neighbor-based interpolation.</li>
+<li>Classifies each cell as <strong>Positive</strong> or <strong>Negative</strong> based on the defined intensity threshold (<code>min_intensity</code>).<br />
+  Cells are marked <strong>Positive</strong> if intensity in the <code>channel_of_interest</code> exceeds the threshold. All others are marked <strong>Negative</strong>.</li>
+<li>Outputs per-time-point Excel files (Positive and Negative sheets).</li>
+</ul>
+<h3 id="-perform-colocalization-analysis">- Perform Colocalization Analysis</h3>
+<ul>
+<li>For each time point, compares only <strong>Positive</strong> cells from GroupB to <strong>Positive</strong> cells from Basic.</li>
+<li>A GroupB cell is declared <strong>Colocalized</strong> if:</li>
+<li>It matches a Basic cell (same Field and Cell ID), and<br />
+    either:<ul>
 <li>Their spatial coordinates (x, y, z) are within <code>position_tolerance</code>, or</li>
 <li>Their intensity difference is within <code>intensity_delta_threshold</code> (if spatial data is unavailable).</li>
-<li>Cells that do not match or do not meet these criteria are labeled Non-colocalized.</li>
+</ul>
+</li>
+<li>Cells that do not match or do not meet these criteria are labeled <strong>Non-colocalized</strong>.</li>
+</ul>
+<h3 id="-generate-summary-excel-file-with-plots">- Generate Summary Excel File with Plots</h3>
+<p>At the end of the analysis, the script generates a single Excel file that consolidates results across all specified time points.<br />
+This file contains <strong>three sheets</strong>:</p>
+<ul>
+<li>
+<p><strong>Basic</strong> and <strong>GroupB</strong> sheets<br />
+  Each sheet contains:</p>
+<ul>
+<li>A summary table with total cells, positive cells, and percentage per time point</li>
+<li>Two embedded plots (counts and percentages)</li>
+</ul>
+</li>
+<li>
+<p><strong>Analysis</strong> sheet<br />
+  This sheet compares the two conditions and includes:</p>
+<ul>
+<li>A merged table showing: Total and positive cell counts for both Basic and GroupB; Percentage of positives; Colocalized and Non-Colocalized cell counts per time point</li>
+<li>One embedded plot summarizing the above data</li>
 </ul>
 </li>
 </ul>
-<h3 id="-generate-summary-excel-file-with-plots">&nbsp;&nbsp;- Generate Summary Excel File with Plots</h3>
-<p>At the end of the analysis, the script generates a single Excel file that consolidates results across all specified time points. This file contains three sheets:<br>
-- <strong>Basic</strong> and <strong>GroupB</strong> Sheets <br>
-Each sheet contains:<br>
-    - A summary table with: Total cells, positive cells, and percentage per time point.<br>
-    - Two embedded plots (counts and percentages).<br>
-- <strong>Analysis</strong> Sheet<br>
-This sheet compares the two conditions and includes:<br>
-    - A merged table showing: Total and positive cell counts for both Basic and GroupB; Percentage of positives; Colocalized and Non-Colocalized cell counts per time point<br>
-    - One embedded plot summarizing the above data</p>
+<blockquote>
+<h3 id="important-cell-order-consistency-between-runs">⚠️ Important: Cell Order Consistency Between Runs</h3>
+<p>For accurate colocalization analysis, it's <strong>critical</strong> to ensure that both AutoCRAT runs (<strong>Basic</strong> and <strong>GroupB</strong>) assigned cell numbers in the same order within each field.</p>
+<p>This means:</p>
+<ul>
+<li><strong>Cell 1</strong> in the Basic Results file must correspond to <strong>Cell 1</strong> in the GroupB file,</li>
+<li><strong>Cell 2</strong> to <strong>Cell 2</strong>, and so on.</li>
+</ul>
+<p>✅ You can verify this by comparing cell coordinates or intensity values in <strong>other channels</strong> (e.g., <code>Cy5</code> or <code>tdTom</code>) — they should be consistent across the two runs for the same Field and Cell number.</p>
+<p>❗ If the order differs between runs, the colocalization results will be invalid.</p>
+</blockquote>
 <hr />
-<h2 id="how-to-use-screencells_tp_intensity-script">How to Use ScreenCells_TP_Intensity Script</h2>
+<h2 id="how-to-use-screencells_tp_intensity_colocalize-script">How to Use ScreenCells_TP_Intensity_colocalize Script</h2>
+<h3 id="step-1-edit-parameters-in-the-script">Step 1: Edit Parameters in the Script</h3>
+<h4 id="specify-the-file-locations-for-both-conditions">• Specify the File Locations for Both Conditions</h4>
+<p>Set the folder and filename of the '<strong>Rep Summary</strong>' file for both the <strong>Basic</strong> and <strong>GroupB</strong> conditions.<br />
+Make sure the corresponding '<strong>Results</strong>' files are located in the same folders as the summary files.</p>
+<pre><code class="language-python"># Basic condition
+rep_summary_folder_basic = Path('path_to_basic_folder')
+rep_summary_filename_basic = 'your_basic_rep_summary_file.xlsx'
+
+# GroupB condition
+rep_summary_folder_groupb = Path('path_to_groupb_folder')
+rep_summary_filename_groupb = 'your_groupb_rep_summary_file.xlsx'
+</code></pre>
+<h4 id="set-output-folder">• Set Output Folder</h4>
+<p>Specify the folder where all output files (classified Excel files and summary Excel) will be saved:</p>
+<pre><code class="language-python">output_folder = Path('path_to_output_folder')
+</code></pre>
+<h4 id="set-analysis-parameters">• Set Analysis Parameters</h4>
+<p>Update the screening and colocalization settings:</p>
+<ul>
+<li><code>required_time_points</code>: List of specific time points to analyze</li>
+<li><code>channel_set</code>: List of channels to extract from each cell sheet</li>
+<li><code>channel_of_interest</code>: Channel used to classify cells as positive</li>
+<li><code>min_intensity</code>: Minimum intensity required for a cell to be considered positive</li>
+<li><code>position_tolerance</code>: Max allowed x/y/z spatial difference for colocalization</li>
+<li><code>intensity_delta_threshold</code>: Max allowed intensity difference for fallback colocalization</li>
+</ul>
+<pre><code class="language-python">required_time_points = [10, 20, 30, 40, 50]
+channel_set = ['Cy5', 'tdTom', 'EGFP']
+channel_of_interest = 'EGFP'
+min_intensity = 65
+position_tolerance = 1.0
+intensity_delta_threshold = 10
+</code></pre>
+<hr />
+<blockquote>
+<h3 id="about-position_tolerance-and-intensity_delta_threshold">📐 About <code>position_tolerance</code> and <code>intensity_delta_threshold</code></h3>
+<p>These two parameters control how the script determines whether a <strong>GroupB-positive</strong> cell is <strong>colocalized</strong> with a <strong>Basic-positive</strong> 
+cell.<br />
+Both checks apply only to cells that share the same <code>Field</code> and <code>Cell ID</code>, and the comparison is performed <strong>per cell, per field, at each 
+specified time point</strong>.</p>
+<h4 id="position_tolerance">• <code>position_tolerance</code></h4>
+<p>Defines the <strong>maximum allowed spatial difference</strong> (in pixels) to consider two matching cells colocalized.<br />
+It compares the <strong>x, y, z coordinates</strong> of the <code>channel_of_interest</code> (e.g., EGFP) between GroupB and Basic cell:</p>
+<p>$$ |x_{basic} - x_{groupb}| &lt; \text{position_tolerance} $$<br />
+$$ |y_{basic} - y_{groupb}| &lt; \text{position_tolerance} $$<br />
+$$ |z_{basic} - z_{groupb}| &lt; \text{position_tolerance} $$</p>
+<p><strong>Important:</strong>
+<strong>All three coordinates (x, y, and z)</strong> must be within the threshold to declare the cell <strong>colocalized</strong>.</p>
+<p><strong>Example:</strong></p>
+<p>If <code>position_tolerance = 1.0</code>, and a cell in GroupB (EGFP) has coordinates:</p>
+<p><code>x = 105.1, y = 210.5, z = 2.0</code></p>
+<p>and the corresponding Basic cell has:</p>
+<p><code>x = 104.5, y = 210.0, z = 2.1</code></p>
+<p>Then:</p>
+<p><code>dx = 0.6, dy = 0.5, dz = 0.1</code></p>
+<p>→ All are below the threshold → ✅ <strong>Colocalized</strong></p>
+<hr />
+<h4 id="intensity_delta_threshold">• <code>intensity_delta_threshold</code></h4>
+<p>Used as a <strong>fallback</strong> when x/y/z coordinates for the <code>channel_of_interest</code> are <strong>missing</strong>.
+It defines the <strong>maximum allowed difference in intensity values</strong> between GroupB and Basic:</p>
+<p>$$ |intensity_{basic} - intensity_{groupb}| &lt;= \text{intensity_delta_threshold} $$</p>
+<p><strong>Example:</strong>
+If <code>intensity_delta_threshold = 10</code>, and:</p>
+<ul>
+<li>GroupB EGFP intensity = 91.0</li>
+<li>Basic EGFP intensity = 85.4
+  → Difference = 5.6 → ✅ <strong>Colocalized</strong></li>
+</ul>
+<p>If the difference were 15.0 → ❌ <strong>Non-colocalized</strong>
+</p>
+</blockquote>
+<hr />
+<h3 id="step-2-run-the-script">Step 2: Run the Script</h3>
+<p>After updating all parameters:</p>
+<ul>
+<li>Save the script</li>
+<li>Run it in your Python environment (e.g., Terminal, Jupyter Notebook, PyCharm, VS Code)</li>
+</ul>
+<hr />
+<h3 id="step-3-output-files">Step 3: Output Files</h3>
+<p>The script generates multiple output files in the specified <code>output_folder</code>:</p>
+<h4 id="per-time-point-classification-files">• Per-Time Point Classification Files</h4>
+<p>For <strong>each time point</strong> and <strong>each condition</strong>, the script produces an Excel file:</p>
+<pre><code>&lt;rep_summary_filename&gt; - Screened (TP &lt;time_point&gt;, Int &lt;min_intensity&gt;).xlsx
+</code></pre>
+<p>Each file includes:</p>
+<ul>
+<li>A <strong>Positive</strong> sheet: cells classified as positive in the selected channel</li>
+<li>A <strong>Negative</strong> sheet: cells that did not meet the intensity threshold</li>
+<li>Summary rows at the top of each sheet: total cell count, positive count, and percentage</li>
+</ul>
+<h4 id="final-combined-summary-file">• Final Combined Summary File</h4>
+<pre><code>&lt;rep_summary_filename&gt; - Screened Sum (TP [&lt;list&gt;], Int &lt;min_intensity&gt;).xlsx
+</code></pre>
+<p>This summary Excel file includes <strong>three sheets</strong>:</p>
+<ul>
+<li>
+<p><strong>Basic</strong> and <strong>GroupB</strong>:
+  Each contains a time-point summary table and two embedded plots:</p>
+<ul>
+<li>Total and positive cell counts</li>
+<li>Percentage of positive cells</li>
+</ul>
+</li>
+<li>
+<p><strong>Analysis</strong>:
+  Combines the two conditions and shows:</p>
+<ul>
+<li>Cell counts and percentages for both Basic and GroupB</li>
+<li>Number of Colocalized and Non-Colocalized cells per time point</li>
+<li>One embedded plot comparing colocalization results</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p><strong>📌 Important:</strong>
+Ensure that cell numbering is consistent between the Basic and GroupB runs for valid comparison.
+Cell 1 in Basic must correspond to Cell 1 in GroupB, and so on.</p>
+</blockquote>
+<hr />
+<h2 id="example-configuration">Example Configuration</h2>
+<p>Below is a sample setup for running the <strong>ScreenCells_TP_Intensity_colocalize</strong> script.<br />
+This configuration will:</p>
+<ul>
+<li>Analyze two AutoCRAT runs: <strong>Basic</strong> (colocalized region) and <strong>GroupB</strong> (broader region)  </li>
+<li>Process 5 time points: 10, 20, 30, 40, and 50  </li>
+<li>Extract intensity and coordinate values for three channels: Cy5, tdTom, and EGFP  </li>
+<li>Classify cells as <strong>positive</strong> if their EGFP intensity is greater than 65  </li>
+<li>Compare positive cells between conditions to determine <strong>colocalization</strong>  </li>
+<li>Generate per-time-point classification files and a combined summary file with statistics and embedded charts</li>
+</ul>
+<pre><code class="language-python">&quot;&quot;&quot; Parameters &quot;&quot;&quot;
+
+# === File Paths ===
+
+# Path and filename for Basic condition (e.g., small region to detect colocalized signals)
+rep_summary_folder_basic = Path('C:\Project\AutoCRAT_Output\Run_Basic')
+rep_summary_filename_basic = 'MyProject - Rep Summary (AutoCRAT 20250611 1411).xlsx'
+
+# Path and filename for GroupB condition (e.g., wide region to detect broader signal)
+rep_summary_folder_groupb = Path('C:\Project\AutoCRAT_Output\Run_GroupB')
+rep_summary_filename_groupb = 'MyProject - Rep Summary (AutoCRAT 20250612 1301).xlsx'
+
+# Folder to save output results
+output_folder = Path('C:\Project\AutoCRAT_Output\Colocalization_Results')
+
+# === Screening and Comparison Parameters ===
+
+required_time_points = [10, 20, 30, 40, 50]   # Time points to analyze
+channel_set = ['Cy5', 'tdTom', 'EGFP']        # Channels to extract from each Results file
+channel_of_interest = 'EGFP'                  # Channel used for classification
+min_intensity = 65                            # Minimum intensity to define a &quot;positive&quot; cell
+position_tolerance = 1.0                      # Max allowed difference (in pixels) for x/y/z to be considered colocalized
+intensity_delta_threshold = 10                # Max allowed intensity difference if position data is missing
+</code></pre>
+<h3 id="expected-output">Expected Output</h3>
+<p>All output files will be saved to the specified <code>output_folder</code>. The script generates:</p>
+<p><strong>Per-Time Point Classification Files</strong>
+For each condition (<strong>Basic</strong> and <strong>GroupB</strong>) and each time point, an Excel file is created with:</p>
+<ul>
+<li>A <strong>Positive</strong> sheet and a <strong>Negative</strong> sheet</li>
+<li>Intensity and coordinate values for each channel</li>
+<li>Summary rows at the top of each sheet (Total cells, Positive cells, Percentage)</li>
+</ul>
+<p>Examples:</p>
+<ul>
+<li><code>C:\Project\AutoCRAT_Output\Colocalization_Results\MyProject - Rep Summary (AutoCRAT 20250611 1411) - Screened (TP 10, Int 65).xlsx</code></li>
+<li><code>C:\Project\AutoCRAT_Output\Colocalization_Results\MyProject - Rep Summary (AutoCRAT 20250612 1301) - Screened (TP 10, Int 65).xlsx</code></li>
+</ul>
+<p><strong>Final Combined Summary File with Colocalization</strong>
+An additional summary file is generated that combines both conditions and colocalization statistics:</p>
+<ul>
+<li><code>C:\Project\AutoCRAT_Output\Colocalization_Results\MyProject - Rep Summary - Screened Sum (TP [10,20,30,40,50], Int 65).xlsx</code></li>
+</ul>
+<p>This file contains:</p>
+<ul>
+<li>A <strong>Basic</strong> sheet and a <strong>GroupB</strong> sheet with per-time-point summary tables and embedded plots</li>
+<li>
+<p>An <strong>Analysis</strong> sheet that includes:</p>
+<ul>
+<li>Total and positive cell counts for each condition</li>
+<li>Colocalized and Non-Colocalized counts per time point</li>
+<li>A plot comparing Coloc vs NonColoc cells</li>
+</ul>
+</li>
+</ul>
+<h3 id="example-output-basic-condition-summary">📊 Example Output: Basic Condition Summary</h3>
+<p>The <strong>Basic</strong> sheet in the final summary Excel file shows per-time-point statistics of signal-positive cells based on the selected intensity threshold.</p>
+<h4 id="summary-table">Summary Table</h4>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>10</th>
+<th>20</th>
+<th>30</th>
+<th>40</th>
+<th>50</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Total Cells</strong></td>
+<td>576</td>
+<td>626</td>
+<td>642</td>
+<td>651</td>
+<td>650</td>
+</tr>
+<tr>
+<td><strong>Positive Cells</strong></td>
+<td>15</td>
+<td>64</td>
+<td>46</td>
+<td>55</td>
+<td>60</td>
+</tr>
+<tr>
+<td><strong>Percentage</strong></td>
+<td>2.6</td>
+<td>10.22</td>
+<td>7.17</td>
+<td>8.45</td>
+<td>9.23</td>
+</tr>
+</tbody>
+</table>
+<h4 id="plots">Plots</h4>
+<div align="center">
+    <img src="../assets/plot_counts_Basic.png" alt="Total and Positive Cells - Basic Condition" width="500">
+    <p><em>Figure: Total and Positive Cell Counts per Time Point (Basic condition)</em></p>
+</div>
+
+<div align="center">
+    <img src="../assets/plot_percentage_Basic.png" alt="Percentage of Positive Cells - Basic Condition" width="500">
+    <p><em>Figure: Percentage of Positive Cells per Time Point (Basic condition)</em></p>
+</div>
+
+<h3 id="example-analysis-sheet-table">📊 Example: Analysis Sheet Table</h3>
+<p>The <code>Analysis</code> sheet in the final summary Excel file shows the comparison between Basic and GroupB conditions, as well as colocalization statistics per time point.</p>
+<table>
+<thead>
+<tr>
+<th>Time Point</th>
+<th>Total Cells Basic</th>
+<th>Positive Cells Basic</th>
+<th>Percentage Basic</th>
+<th>Total Cells GroupB</th>
+<th>Positive Cells GroupB</th>
+<th>Percentage GroupB</th>
+<th>Coloc</th>
+<th>NonColoc</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10</td>
+<td>576</td>
+<td>15</td>
+<td>2.6</td>
+<td>576</td>
+<td>60</td>
+<td>10.42</td>
+<td>14</td>
+<td>46</td>
+</tr>
+<tr>
+<td>20</td>
+<td>626</td>
+<td>64</td>
+<td>10.22</td>
+<td>626</td>
+<td>222</td>
+<td>35.46</td>
+<td>58</td>
+<td>164</td>
+</tr>
+<tr>
+<td>30</td>
+<td>642</td>
+<td>46</td>
+<td>7.17</td>
+<td>642</td>
+<td>181</td>
+<td>28.19</td>
+<td>44</td>
+<td>137</td>
+</tr>
+<tr>
+<td>40</td>
+<td>651</td>
+<td>55</td>
+<td>8.45</td>
+<td>651</td>
+<td>223</td>
+<td>34.25</td>
+<td>53</td>
+<td>170</td>
+</tr>
+<tr>
+<td>50</td>
+<td>650</td>
+<td>60</td>
+<td>9.23</td>
+<td>650</td>
+<td>194</td>
+<td>29.85</td>
+<td>56</td>
+<td>138</td>
+</tr>
+</tbody>
+</table>
+<h3 id="example-plot-colocalized-vs-non-colocalized-cells">📈 Example Plot: Colocalized vs Non-Colocalized Cells</h3>
+<p>This plot from the <strong>Analysis</strong> sheet visualizes the number of colocalized and non-colocalized cells for each time point.</p>
+<div align="center">
+  <img src="../assets/plot_analysis_coloc.png" alt="Coloc vs NonColoc per Time Point" width="600">
+  <p><em>Figure: Colocalized vs Non-Colocalized Cells Across Time Points</em></p>
+</div>
+
+<hr />
+<p>By following these steps, you can systematically compare two AutoCRAT conditions across time points, identify signal-positive cells based on intensity thresholds, and assess whether matching cells from both runs are colocalized — assuming the Basic run was performed with the goal of detecting colocalized signals.</p>
 
 
 
