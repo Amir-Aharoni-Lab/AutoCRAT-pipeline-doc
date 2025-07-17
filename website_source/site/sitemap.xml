@@ -2,90 +2,94 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/</loc>
-         <lastmod>2025-06-25</lastmod>
+         <lastmod>2025-07-17</lastmod>
     </url>
     <url>
          <loc>https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/CherryPicker/</loc>
-         <lastmod>2025-06-25</lastmod>
+         <lastmod>2025-07-17</lastmod>
     </url>
     <url>
          <loc>https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/MergeAutoCRAT/</loc>
-         <lastmod>2025-06-25</lastmod>
+         <lastmod>2025-07-17</lastmod>
     </url>
     <url>
          <loc>https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/PlotRNSA/</loc>
-         <lastmod>2025-06-25</lastmod>
+         <lastmod>2025-07-17</lastmod>
     </url>
     <url>
          <loc>https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/RNSAheatmap/</loc>
-         <lastmod>2025-06-25</lastmod>
+         <lastmod>2025-07-17</lastmod>
     </url>
     <url>
          <loc>https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/RNSAsigmoid/</loc>
-         <lastmod>2025-06-25</lastmod>
+         <lastmod>2025-07-17</lastmod>
     </url>
     <url>
          <loc>https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/RNSAsubpop/</loc>
-         <lastmod>2025-06-25</lastmod>
+         <lastmod>2025-07-17</lastmod>
     </url>
     <url>
          <loc>https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/ScreenByRepTime/</loc>
-         <lastmod>2025-06-25</lastmod>
+         <lastmod>2025-07-17</lastmod>
     </url>
     <url>
          <loc>https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/ScreenCells_TP_Intensity/</loc>
-         <lastmod>2025-06-25</lastmod>
+         <lastmod>2025-07-17</lastmod>
+    </url>
+    <url>
+         <loc>https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/ScreenCells_TP_Intensity_colocalize/</loc>
+         <lastmod>2025-07-17</lastmod>
     </url>
     <url>
          <loc>https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/ScreenRNSA/</loc>
-         <lastmod>2025-06-25</lastmod>
+         <lastmod>2025-07-17</lastmod>
     </url>
     <url>
          <loc>https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/ScreenRNSA_Cutoff/</loc>
-         <lastmod>2025-06-25</lastmod>
+         <lastmod>2025-07-17</lastmod>
     </url>
     <url>
          <loc>https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/SwarmPlot/</loc>
-         <lastmod>2025-06-25</lastmod>
+         <lastmod>2025-07-17</lastmod>
     </url>
     <url>
          <loc>https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/configuration/</loc>
-         <lastmod>2025-06-25</lastmod>
+         <lastmod>2025-07-17</lastmod>
     </url>
     <url>
          <loc>https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/contact/</loc>
-         <lastmod>2025-06-25</lastmod>
+         <lastmod>2025-07-17</lastmod>
     </url>
     <url>
          <loc>https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/installation/</loc>
-         <lastmod>2025-06-25</lastmod>
+         <lastmod>2025-07-17</lastmod>
     </url>
     <url>
          <loc>https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/output_files/</loc>
-         <lastmod>2025-06-25</lastmod>
+         <lastmod>2025-07-17</lastmod>
     </url>
     <url>
          <loc>https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/pipeline/</loc>
-         <lastmod>2025-06-25</lastmod>
+         <lastmod>2025-07-17</lastmod>
     </url>
     <url>
          <loc>https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/quick_start/</loc>
-         <lastmod>2025-06-25</lastmod>
+         <lastmod>2025-07-17</lastmod>
     </url>
     <url>
          <loc>https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/step2_detection_and_tracking/</loc>
-         <lastmod>2025-06-25</lastmod>
+         <lastmod>2025-07-17</lastmod>
     </url>
     <url>
          <loc>https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/step3_replication_analysis/</loc>
-         <lastmod>2025-06-25</lastmod>
+         <lastmod>2025-07-17</lastmod>
     </url>
     <url>
          <loc>https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/step4_rnsa/</loc>
-         <lastmod>2025-06-25</lastmod>
+         <lastmod>2025-07-17</lastmod>
     </url>
     <url>
          <loc>https://amir-aharoni-lab.github.io/AutoCRAT-pipeline-doc/step5_dsb/</loc>
-         <lastmod>2025-06-25</lastmod>
+         <lastmod>2025-07-17</lastmod>
     </url>
 </urlset>

@@ -3,7 +3,6 @@
 <iframe src="../assets/ScreenCells_TP_intensity_diagram.html" width="800" height="350" style="border:none; margin:0; padding:0; display:block;"></iframe>
 
 ---
-
 The **ScreenCells_TP_Intensity** script analyzes cell intensity data from AutoCRAT output files at specific time points. It classifies cells as **positive** or **negative** based on whether the intensity in a specified channel exceeds a threshold. The script handles missing data with neighbor interpolation and summarizes results with classification sheets and summary plots embedded directly in Excel.
 
 ---

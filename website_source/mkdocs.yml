@@ -21,6 +21,7 @@ nav:
       - ScreenRNSA: ScreenRNSA.md
       - ScreenRNSA_Cutoff: ScreenRNSA_Cutoff.md
     - ScreenCells_TP_Intensity: ScreenCells_TP_Intensity.md
+    - ScreenCells_TP_Intensity_colocalize: ScreenCells_TP_Intensity_colocalize.md
     - ScreenByRepTime: ScreenByRepTime.md
     - CherryPicker: CherryPicker.md
     - RNSAheatmap: RNSAheatmap.md
